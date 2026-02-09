@@ -1,0 +1,113 @@
+{
+  "version": 1,
+  "providers": {
+    "openrouter": {
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "models": [
+        {
+          "modelId": "arcee-ai/trinity-large-preview:free",
+          "title": "Trinity Large Preview",
+          "powerTier": "Medium",
+          "tags": ["chat", "general"],
+          "stars": { "coding": 3, "reasoning": 3, "multilingual": 3, "speed": 4, "safety": 3 }
+        },
+        {
+          "modelId": "deepseek/deepseek-r1-0528:free",
+          "title": "DeepSeek R1 0528",
+          "powerTier": "High",
+          "tags": ["reasoning", "analysis"],
+          "stars": { "coding": 4, "reasoning": 5, "multilingual": 3, "speed": 2, "safety": 3 }
+        },
+        {
+          "modelId": "nousresearch/hermes-3-llama-3.1-405b:free",
+          "title": "Hermes 3 Llama 3.1 405B",
+          "powerTier": "eHigh",
+          "tags": ["chat", "reasoning"],
+          "stars": { "coding": 4, "reasoning": 4, "multilingual": 3, "speed": 1, "safety": 3 }
+        },
+        {
+          "modelId": "cognitivecomputations/dolphin-mistral-24b-venice-edition:free",
+          "title": "Dolphin Mistral 24B Venice",
+          "powerTier": "Medium",
+          "tags": ["chat", "creative"],
+          "stars": { "coding": 3, "reasoning": 3, "multilingual": 2, "speed": 4, "safety": 2 }
+        },
+        {
+          "modelId": "openai/gpt-oss-120b:free",
+          "title": "GPT-OSS 120B",
+          "powerTier": "High",
+          "tags": ["coding", "general"],
+          "stars": { "coding": 5, "reasoning": 4, "multilingual": 3, "speed": 2, "safety": 4 }
+        },
+        {
+          "modelId": "openai/gpt-oss-20b:free",
+          "title": "GPT-OSS 20B",
+          "powerTier": "Medium",
+          "tags": ["coding", "general"],
+          "stars": { "coding": 4, "reasoning": 3, "multilingual": 3, "speed": 4, "safety": 4 }
+        },
+        {
+          "modelId": "qwen/qwen3-coder:free",
+          "title": "Qwen3 Coder",
+          "powerTier": "High",
+          "tags": ["coding"],
+          "stars": { "coding": 5, "reasoning": 3, "multilingual": 2, "speed": 3, "safety": 3 }
+        },
+        {
+          "modelId": "z-ai/glm-4.5-air:free",
+          "title": "GLM 4.5 Air",
+          "powerTier": "Medium",
+          "tags": ["chat", "general"],
+          "stars": { "coding": 3, "reasoning": 3, "multilingual": 4, "speed": 4, "safety": 3 }
+        },
+        {
+          "modelId": "google/gemma-3n-e4b-it:free",
+          "title": "Gemma 3n e4b it",
+          "powerTier": "Low",
+          "tags": ["fast", "lightweight"],
+          "stars": { "coding": 2, "reasoning": 2, "multilingual": 3, "speed": 5, "safety": 3 }
+        }
+      ]
+    },
+    "groq": {
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "models": [
+        {
+          "modelId": "moonshotai/kimi-k2-instruct-0905",
+          "title": "Kimi K2 Instruct",
+          "powerTier": "High",
+          "tags": ["reasoning", "general"],
+          "stars": { "coding": 4, "reasoning": 4, "multilingual": 3, "speed": 3, "safety": 3 }
+        },
+        {
+          "modelId": "openai/gpt-oss-safeguard-20b",
+          "title": "GPT-OSS Safeguard 20B",
+          "powerTier": "Low",
+          "tags": ["safety", "moderation"],
+          "stars": { "coding": 1, "reasoning": 2, "multilingual": 2, "speed": 4, "safety": 5 }
+        },
+        {
+          "modelId": "openai/gpt-oss-20b",
+          "title": "GPT-OSS 20B",
+          "powerTier": "Medium",
+          "tags": ["coding", "general"],
+          "stars": { "coding": 4, "reasoning": 3, "multilingual": 3, "speed": 4, "safety": 4 }
+        },
+        {
+          "modelId": "openai/gpt-oss-120b",
+          "title": "GPT-OSS 120B",
+          "powerTier": "eHigh",
+          "tags": ["coding", "reasoning"],
+          "stars": { "coding": 5, "reasoning": 4, "multilingual": 3, "speed": 2, "safety": 4 }
+        },
+        {
+          "modelId": "qwen/qwen3-32b",
+          "title": "Qwen3 32B",
+          "powerTier": "High",
+          "tags": ["coding", "general"],
+          "stars": { "coding": 4, "reasoning": 4, "multilingual": 3, "speed": 3, "safety": 3 }
+        }
+      ]
+    }
+  }
+}

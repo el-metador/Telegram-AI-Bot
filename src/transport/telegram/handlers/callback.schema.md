@@ -1,0 +1,24 @@
+# Callback Data Schema
+
+- `provider:<openrouter|groq>`
+- `power:<Low|Medium|High|eHigh>`
+- `model:providers`
+- `model:page:<provider>:<page>`
+- `model:all`
+- `model:all:page:<page>`
+- `m:info:<provider>:<page>:<index>`
+- `m:select:<provider>:<page>:<index>`
+- `mall:info:<page>:<index>`
+- `mall:select:<page>:<index>`
+- `pick:open`
+- `pick:metric:<coding|reasoning|multilingual|speed|safety|balanced>`
+- `pick:provider-back:<metric>`
+- `pick:provider:<metric>:<all|openrouter|groq>`
+- `pick:power:<metric>:<provider>:<any|Low|Medium|High|eHigh>`
+- `pick:page:<metric>:<provider>:<power>:<page>`
+- `pick:info:<metric>:<provider>:<power>:<page>:<index>`
+- `pick:select:<metric>:<provider>:<power>:<page>:<index>`
+- `prompt:set`
+- `prompt:view`
+- `prompt:reset`
+- `noop`
